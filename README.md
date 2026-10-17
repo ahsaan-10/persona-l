@@ -1,34 +1,47 @@
-# Data Storytelling Portfolio
+# Data Storytelling Dashboard
 
-**A frontend portfolio exploring how dashboard layouts, charts, and narrative sections can present business information.**
+**A single-page site that presents business data the way an analyst would explain it: dashboard layouts, key numbers, and short narrative case studies.**
 
-[View the website](https://ahsaanlab.vercel.app)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
+![Vercel](https://img.shields.io/badge/deployed%20on-Vercel-000000?logo=vercel&logoColor=white)
 
-## What it demonstrates
+**[View the live site →](https://ahsaanlab.vercel.app)**
 
-- A portfolio organized around data storytelling, dashboard presentation, and technical communication.
-- Illustrative dashboard and business-analysis visuals.
-- Animated role text, counters, scroll reveals, and a process timeline.
-- HTML, CSS, and vanilla JavaScript in one static entry point.
+---
 
-This is a visual presentation project. It does not include a reproducible dataset, analysis notebook, trained model, or backend data pipeline. Illustrative charts and business-result claims should not be presented as independently verified data science findings.
+## Overview
+
+The site explores how to communicate data clearly to a non-technical audience. Instead of a wall of charts, each section pairs a dashboard-style visual with the story behind it: the question, what the numbers show, and the decision it supports.
+
+## Features
+
+- **Dashboard layouts:** KPI cards, chart panels, and summary tables designed to be read at a glance.
+- **Narrative case studies:** problem → analysis → outcome sections that explain the "so what" of the data.
+- **Animated metrics:** counters and scroll-triggered reveals that draw attention to key numbers.
+- **Process timeline:** a step-by-step view of an analysis workflow, from raw data to recommendation.
+- **Zero build step:** plain HTML, CSS, and vanilla JavaScript in one file.
+
+> The charts and figures are illustrative examples designed to demonstrate presentation, not results from a real dataset.
 
 ## Run locally
 
 ```bash
-git clone https://github.com/ahsaan-10/persona-l.git
-cd persona-l
+git clone https://github.com/ahsaan-10/data-storytelling-dashboard.git
+cd data-storytelling-dashboard
 python -m http.server 8080
 ```
 
-Open `http://localhost:8080`. No build step is required; external fonts need network access.
+Then open http://localhost:8080.
 
-## Repository map
+## Project structure
 
 ```text
-index.html   Portfolio content, styling, and browser interactions
+data-storytelling-dashboard/
+└── index.html   # Content, styles, and interactions
 ```
 
-## Demo walkthrough
+## License
 
-Explore the dashboard section, the narrative case-study layouts, and the process timeline. Use this project to show interface and visual communication skills. A separate dataset and analysis repository would provide evidence for a data science engagement.
+Released under the [MIT License](LICENSE).
